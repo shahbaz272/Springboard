@@ -24,12 +24,19 @@ exploring the data, and getting acquainted with the 3 tables. */
 
 
 
+
 /* Q1: Some of the facilities charge a fee to members, but some do not.
 Please list the names of the facilities that do. */
 
 SELECT name, membercost
 FROM  `Facilities` 
 WHERE membercost > 0;
+
+"Tennis Court 1","5.0"
+"Tennis Court 2","5.0"
+"Massage Room 1","9.9"
+"Massage Room 2","9.9"
+"Squash Court","3.5"
 
 /* Q2: How many facilities do not charge a fee to members? */
 
